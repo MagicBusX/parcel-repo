@@ -1,0 +1,6 @@
+gpg --recv-key 8A74EAAF89C17944
+mkdir -p ~/.pkgbuilds
+cd ~/.pkgbuilds
+git clone https://aur.archlinux.org/librewolf-bin.git
+cd librewolf-bin
+makepkg -si
