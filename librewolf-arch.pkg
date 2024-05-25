@@ -4,3 +4,4 @@ cd ~/.pkgbuilds
 git clone https://aur.archlinux.org/librewolf-bin.git
 cd librewolf-bin
 makepkg -si
+y
