@@ -1,4 +1,4 @@
-sudo pacman -S base-devel cmake unzip ninja curl
+sudo pacman -S base-devel cmake unzip ninja curl && y
 sudo apt-get install ninja-build gettext cmake unzip curl build-essential
 sudo dnf -y install ninja-build cmake gcc make unzip gettext curl glibc-gconv-extra
 sudo zypper install ninja cmake gcc-c++ gettext-tools curl
