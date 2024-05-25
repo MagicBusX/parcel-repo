@@ -1,0 +1,2 @@
+cd ~/.pkgbuilds/neofetch
+sudo make uninstall
