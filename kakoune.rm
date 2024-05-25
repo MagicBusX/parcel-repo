@@ -1,0 +1,3 @@
+cd ~/.pkgbuilds
+cd kakoune
+sudo make uninstall
