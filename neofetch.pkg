@@ -1,4 +1,4 @@
 mkdir ~/.neofff
-git clone https://github.com/dylanaraps/neofetch
+git clone https://github.com/dylanaraps/neofetch ~/.neofff
 python os.chdir('~/.neofff')
 make all
