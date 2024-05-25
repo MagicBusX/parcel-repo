@@ -1,3 +1,5 @@
 cd ~/.pkgbuilds
 cd kakoune
 sudo make uninstall
+cd ..
+sudo rm -r kakoune
