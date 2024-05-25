@@ -1,3 +1,3 @@
 # parcel-repo
 
-Repository for my shitty package Manager
+Repository for my shitty "package Manager"
