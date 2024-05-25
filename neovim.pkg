@@ -1,11 +1,5 @@
-sudo pacman -S base-devel cmake unzip ninja curl && y
-sudo apt-get install ninja-build gettext cmake unzip curl build-essential
-sudo dnf -y install ninja-build cmake gcc make unzip gettext curl glibc-gconv-extra
-sudo zypper install ninja cmake gcc-c++ gettext-tools curl
-sudo apk add build-base cmake coreutils curl unzip gettext-tiny-dev
-sudo xbps-install base-devel cmake curl git
 mkdir ~/.pkgbuilds
 cd ~/.pkgbuilds
-git clone https://github.com/neovim/neovim
-cd neovim
-sudo make install
+git clone https://github.com/mawww/kakoune.git
+cd kakoune
+make install
