@@ -1,0 +1,11 @@
+wget "https://github.com/rkd77/elinks/releases/download/v0.17.0/elinks-0.17.0-x86_64-bin.tar.xz"
+7z x elinks-0.17.0-x86_64-bin.tar.xz
+7z x elinks-0.17.0-x86_64-bin.tar
+cd elinks-0.17.0-x86_64-bin
+chmod +x elinks
+cp elinks ..
+cd ..
+rm elinks-0.17.0-x86_64-bin.tar.xz
+rm elinks-0.17.0-x86_64-bin.tar
+rm -r elinks-0.17.0-x86_64-bin
+echo "WARNING!!! RUN ELINKS WITH ./elinks"
